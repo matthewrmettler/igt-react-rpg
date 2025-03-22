@@ -16,6 +16,7 @@
   },
   "dependencies": {
     "@tailwindcss/postcss": "^4.0.15",
+    "flowbite-react": "^0.10.2",
     "lodash-es": "^4.17.21",
     "mousetrap": "^1.6.5",
     "next": "^15.2.3",
