@@ -1,13 +1,9 @@
 {
-  "name": "@123ishatest/igt-library",
-  "version": "1.0.0",
-  "description": "A collection of useful scripts to help you develop incremental games",
-  "homepage": "https://github.com/123ishaTest/igt-library",
-  "bugs": {
-    "email": "ishadijcks@gmail.com",
-    "url": "https://github.com/123ishaTest/igt-library/issues"
-  },
-  "author": "Isha",
+  "name": "igt-react-rpg",
+  "version": "0.0.1",
+  "description": "An RPG made with React and 123ishaTest/igt-library",
+  "homepage": "https://github.com/matthewrmettler/igt-react-rpg",
+  "author": "Matthew Mettler",
   "license": "MIT",
   "type": "module",
   "main": "dist/index.js",
@@ -19,9 +15,15 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@tailwindcss/postcss": "^4.0.15",
     "lodash-es": "^4.17.21",
     "mousetrap": "^1.6.5",
-    "strongly-typed-events": "^3.0.11"
+    "next": "^15.2.3",
+    "postcss": "^8.5.3",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "strongly-typed-events": "^3.0.11",
+    "tailwindcss": "^4.0.15"
   },
   "devDependencies": {
     "@changesets/changelog-github": "^0.5.0",
@@ -29,6 +31,7 @@
     "@types/lodash-es": "^4.17.12",
     "@types/mousetrap": "^1.6.15",
     "@types/node": "^20.11.19",
+    "@types/react": "^19.0.12",
     "jsdom": "^24.0.0",
     "prettier": "^3.2.5",
     "typescript": "^5.2.2",
